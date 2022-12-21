@@ -1,6 +1,8 @@
 Sepete bulunan ürünleri ekleme işlemi var.Eklemenin yanı sıra ürünlerin üzerinde yer alan arttırma-azaltma imleciyle ürün sayısını azaltma işlemi de yapılabilir. Sepet sağ köşede ürün eklendiğinde sepetin içerisine eklenen ürünün küçük bir görseli,kaç adet olduğu ve fiyatı gözükür.Sepetteki toplam ürünlerin fiyatı en altta gözükür.
 <h1>ALIŞVERİŞ SEPETİ YAPIMI</h1>
 
+https://user-images.githubusercontent.com/102542430/208994753-75de56fd-2790-4c00-8158-1b73ea98117c.mp4
+
 Öncelikle bilgisayarımıza <a href="https://nodejs.org/tr/download/current/">nodejs </a> kurulması gerekiyor. Bilgisayarınızın özelliğine göre indirip kurun.
 
 
@@ -57,7 +59,6 @@ Hemen peşine header,Basket ve Product dosyalarını App.js dosyasına import ed
 
 
 Buradaki arada yer alan kodları ilerleyen kısımlarda tek tek anlatacağım.
-
 
 Sırada Product.js'deki ürün bilgilerini App.js'ye ekleyelim.Product.js ürün bilgilerini products.json dosyasından çekecektir. Fakat size ürünleri products.json dosyasına eklemeyi ileride anlatacağım.Product.js dosyasına aşağıdaki kodları yazmayla devam
 edelim.
