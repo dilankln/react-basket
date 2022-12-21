@@ -1,46 +1,33 @@
 Sepete bulunan ürünleri ekleme işlemi var.Eklemenin yanı sıra ürünlerin üzerinde yer alan arttırma-azaltma imleciyle ürün sayısını azaltma işlemi de yapılabilir. Sepet sağ köşede ürün eklendiğinde sepetin içerisine eklenen ürünün küçük bir görseli,kaç adet olduğu ve fiyatı gözükür.Sepetteki toplam ürünlerin fiyatı en altta gözükür.
 <h1>ALIŞVERİŞ SEPETİ YAPIMI</h1>
 
-https://user-images.githubusercontent.com/102542430/208995995-a478b2c7-c385-4135-aa2c-33f92ed87cbe.mp4
+https://user-images.githubusercontent.com/102542430/208996686-2d1674f3-f9d4-46b2-bbc8-12f9f7077f25.mp4
 
 Öncelikle bilgisayarımıza <a href="https://nodejs.org/tr/download/current/">nodejs </a> kurulması gerekiyor. Bilgisayarınızın özelliğine göre indirip kurun.
 
 Diğer adımda ise masaüstüne boş bir klasör oluşturun.Bu klasöre ben <b>"react sepet"</b> ismini vereceğim.
 
-
 Visual studio code'de masaüstündeki klasörü açıp aşağıdaki adımları terminale yazın.
-
 
 <b>npx create-react-app  reactsepet</b> bu yazıyı yazın.React uygulaması oluştururReactsepet diye yazdığım kısım uygulamama verdiğim isimdir. Bu işlemi entere basarak bitirdiğimizde uygulama için indirmeler başlar.Aşağıda size görsel olarak sunacağım.
 
-
 <img src="YAPIM/Ekran Alıntısı.PNG" width="500px" />
-
 
 İndirme bittikten sonra diğer adıma geçebiliriz.
 
-
 <b>cd reactsepett</b> yazarak uygulamamızın gözükmesini sağlarız.
-
 
 <img src="YAPIM/Ekran Alıntı2sı.PNG" width="500px">
 
-
 Devamında son olarak <b>npm start</b> yazarak projemizi çalıştıralım.
-
 
 <img src="YAPIM/Ekran Alıntı3sı.PNG" width="500px">
 
-
 Son adımda terminalde localhost gibi projenin özellikleri yer alıyor.Çalıştığında bir web sayfası karşınıza çıkacaktır.
-
-
 
 Kurulum sırasında klasörün içerisine kendiliğinden yüklenen dosyaların içerisini temizleyerek başlayalım.
 
-
 Src klasörünün içerisine <b>components</b>adında klasör oluşturalım.Buraya <b>Header.js ,Basket.js ve Product.js </b> adlarında dosyalar açalım.
-
 
 <img src="YAPIM/Ekran Alı5ntısı.PNG">
 
