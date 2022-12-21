@@ -1,10 +1,9 @@
 Sepete bulunan ürünleri ekleme işlemi var.Eklemenin yanı sıra ürünlerin üzerinde yer alan arttırma-azaltma imleciyle ürün sayısını azaltma işlemi de yapılabilir. Sepet sağ köşede ürün eklendiğinde sepetin içerisine eklenen ürünün küçük bir görseli,kaç adet olduğu ve fiyatı gözükür.Sepetteki toplam ürünlerin fiyatı en altta gözükür.
 <h1>ALIŞVERİŞ SEPETİ YAPIMI</h1>
 
-https://user-images.githubusercontent.com/102542430/208994753-75de56fd-2790-4c00-8158-1b73ea98117c.mp4
+https://user-images.githubusercontent.com/102542430/208995995-a478b2c7-c385-4135-aa2c-33f92ed87cbe.mp4
 
 Öncelikle bilgisayarımıza <a href="https://nodejs.org/tr/download/current/">nodejs </a> kurulması gerekiyor. Bilgisayarınızın özelliğine göre indirip kurun.
-
 
 Diğer adımda ise masaüstüne boş bir klasör oluşturun.Bu klasöre ben <b>"react sepet"</b> ismini vereceğim.
 
