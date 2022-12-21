@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Sepetin Yapımı</title>
+</head>
+<body>
+    <style>
+        h1{
+            color: rgb(95, 13, 89);
+            font-style:oblique;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            background-color: rgb(243, 178, 191);
+        }
+        p{
+            font-size: 20px;
+            margin: 10px;
+        }
+
+    </style>
+    <h1>ALIŞVERİŞ SEPETİ YAPIMI</h1>
+    <p>
+        Öncelikle bilgisayarımıza <a href="https://nodejs.org/tr/download/current/" >nodejs </a> kurulması gerekiyor.
+        Bilgisayarınızın özelliğine göre indirip kurun.
+    </p>
+    <p>
+        Diğer adımda ise masaüstüne boş bir klasör oluşturun.Bu klasöre ben <b>"react sepet"</b> ismini vereceğim.
+    </p>
+    <p>
+        Visual studio code'de masaüstündeki klasörü açıp aşağıdaki adımları terminale yazın.
+    </p>
+    <p>
+        <b>npx create-react-app  reactsepet</b> bu yazıyı yazın.React uygulaması oluştururReactsepet diye yazdığım kısım  uygulamama verdiğim isimdir.
+        Bu işlemi entere basarak bitirdiğimizde uygulama için indirmeler başlar.Aşağıda size görsel olarak sunacağım.
+    </p>
+    <p>
+        <img src="Ekran Alıntısı.PNG" width="500px"/>
+    </p>
+    <p>
+        İndirme bittikten sonra diğer adıma geçebiliriz.
+    </p>
+    <p>
+        <b>cd reactsepett</b> yazarak uygulamamızın gözükmesini sağlarız.
+    </p>
+    <p>
+        <img src="Ekran Alıntı2sı.PNG" width="500px">
+    </p>
+    <p>
+        Devamında son olarak <b>npm start</b> yazarak projemizi çalıştıralım.
+    </p>
+    <p>
+        <img src="Ekran Alıntı3sı.PNG" width="500px">
+    </p>
+    <p>
+        Son adımda terminalde localhost gibi projenin özellikleri yer alıyor.Çalıştığında bir web sayfası karşınıza çıkacaktır.
+
+    </p>
+    <p>
+        Kurulum sırasında klasörün içerisine kendiliğinden yüklenen dosyaların içerisini temizleyerek başlayalım.
+    </p>
+    <p>
+        Src klasörünün içerisine <b>components</b>adında klasör oluşturalım.Buraya <b>Header.js ,Basket.js ve Product.js </b> adlarında dosyalar açalım.
+    </p>
+    <p>
+        <img src="Ekran Alı5ntısı.PNG">
+    </p>
+    <p>
+        Header.js dosyasına aşağıda verdiğim görseldeki kodları yazalım.
+    </p>
+    <p>
+        <img src="Ekran A6lıntısı.PNG">
+    </p>
+    <p>
+        Hemen peşine header,Basket ve Product dosyalarını App.js dosyasına import edelim.
+    </p>
+    <p>
+        <img src="Ekran Alınt7ısı.PNG" width="500px">
+    </p>
+    <p>
+        Buradaki arada yer alan kodları ilerleyen kısımlarda tek tek anlatacağım.
+    </p>
+    <p>
+        Sırada Product.js'deki ürün bilgilerini App.js'ye ekleyelim.Product.js ürün bilgilerini products.json dosyasından çekecektir.
+        Fakat size ürünleri products.json dosyasına eklemeyi ileride anlatacağım.Product.js dosyasına aşağıdaki kodları yazmayla devam edelim.
+    </p>
+    <p>
+        <img src="Ekran Alı8ntısı.PNG" width="500px">
+    </p>
+    <p>
+        Devamında App.js dosyasına aşağıdaki kodları yazın.
+    </p>
+    <p>
+        <img src="Ekran Alı9ntısı.PNG">
+    </p>
+    <p>
+        Sayfamızda ürünlerimizin görüntüleri oluşmuştur bu kodları yazdıktan sonra.Şimdi ürün görselleerinin üst kısımlarına arttırma ve azaltma imleçleri
+        yerleştirelim.
+    </p>
+    <p>
+        <img src="Ek10ran Alıntısı.PNG" width="500px">
+    </p>
+    <p>
+        Gelin yukarıdaki kodları inceleyelim biraz.Butonlarımızı oluşturduk ve alt kısımdaki 'product.name' ve 'product.price' kısımları ürünlerin adlarını
+        çektiği yerdeki isimlerle ekranda göstermeye yardımcı olur.Kodlarda verilen classname,id'de verilen tanımlamalar sayesinde işlerimiz kolaylaşıyor.
+    </p>
+    <p>
+        Sağ tarafa bir de sepet ekleyelim.Basket.js dosyasını açarak aşağıda verilen kodları yazalım.
+    </p>
+    <p>
+        <img src="Ekran Alı11ntısı.PNG" width="400px">
+    </p>
+    <p>
+        Hemen peşisıra App.js dosyasına basket.js 'yi import edelim.
+    </p>
+    <p>
+        <img src="E12kran Alıntısı.PNG" width="300px">
+    </p>
+    <p>
+        Sepete ekleme ve çıkarma işlemlerini yapmaya geldi sıra.Gözünüz sakın korkmasın çok basit ve kolay.App.js dosyasını açın ve kodları yazmaya başlayın.
+        Bu kodları return kodunun üst kısmına yazacaksınız.
+    </p>
+    <p>
+        <img src="Ekr13an Alıntısı.PNG" width="300px">
+    </p>
+    <p>
+        Aşağıda vereceğim kodları ise App.js dosyasında return kodunun iç kısımına yazın.
+    </p>
+    <p>
+        <img src="Ekr14an Alıntısı.PNG" width="400px">
+    </p>
+    <p>
+        Sepete ürün eklemeyi öncelikle yapalım.Verilen kodda eklenen ürün sepette varsa veya yoksa diye düşünerek if ve else kullandık.Ürün varsa 
+        fiyatı eklenen ürün sayısıyla çarpıp toplam fiyatı yanında gösterecektir.
+    </p>
+    <p>
+        <img src="Ekran15 Alıntısı.PNG" width="350px">
+    </p>
+    <p>
+        Tabiki eklenen ürünün ismi,fiyatı ve görselini de sepette gösterir.Orada product.name gibi yazdığımız kodlar işimizi basitleştirmek için yapılmıştır.
+        Örneğin her ürün için tek tek isim yazmak yerine bizim her ürüne verdiğimiz idleri eklemesini sağlarız.
+    </p>
+    <p>
+        Sepete ekleme çıkarma işlemleri yapıldığı sürece konsola yazdırılmasını istiyorsak şu kodları App.js dosyasının return kodunun üst kısmına yazalım.
+    </p>
+    <p>
+        <img src="E16kran Alıntısı.PNG" width="400px">
+    </p>
+    <p>
+        Şimdi sepetteki ürünü 1 eksilttiğimizde sepette o üründen daha kalmıyorsa yani 0 oluyorsa o ürünü sepetten silmemiz gerekiyor.
+        Product.js dosyasının return kodunun üst kısmına yazacağız.Bunun için de;
+    </p>
+    <p>
+        <img src="Ekra17n Alıntısı.PNG" width="300px">
+    </p>
+    <p>
+        Basket.js dosyasını açalım.Yapacağımız işlem sepette ürünlerin işlem özelliklerini içerecektir.
+    </p>
+    <p>
+        <img src="E18kran Alıntısı.PNG" width="300px">
+    </p>
+    <p>
+        Buradaki genel olarak kodlar diğer dosyalarda yazdıklarımız olduğu için ayrıntılı anlatmayacağım.Ama size ne işlemleri olduğunu anlatacağım.
+        Width ile eklenen ürünün boyutunu ayarladık. Eklenen ürünün ismi fiyatı ve kaç adet olduğunu yazdırdık.Sepetin en sonuna ise toplam fiyatı
+        TL cinsinden yazdırdık.
+    </p>
+    <p>
+        App.js dosyasına da verdiğim alttaki kodları yazarak toplam fiyatı bulma ve ekranda gösterme işlemini bitirmiş oluyoruz.
+    </p>
+    <p>
+        <img src="Ek19ran Alıntısı.PNG" width="400px">
+    </p>
+    <p>
+        Evet son kısıma geldik.Ürün bilgilerini products.json dosyasına nasıl ekleyeceğiz onu öğrenmeye.Bir ürün eklemeyi göstereceğim zaten diğerlerini de 
+    aynı şekilde yaparsınız.
+    </p>
+    <p>
+        <img src="Ekr20an Alıntısı.PNG" width="500px">
+    </p>
+    <p>
+        Kıvırcık parantez içerinde ürünün ismi fiyatı ve id'sini yazdık.İd işi kolaylaştırma amacındadır.Ürünün linkini ise çift tırnak içerisinde 
+        yazmalıyız.Unutmadan her ürün için bu saydıklarımı tek tek yapmalısınız.Her kıvrıcık parantez arasına virgül atmayı da unutmayın.
+    </p>
+    <p>
+        Evvet sepet yapımını bitirdik arkadaşlar.Umarım açıklayıcı olmuştur anlatımım.Bence gözünüzü korkutacak kadar bir zorluğu olduğunu düşünmüyorum.
+    </p>
+
+</body>
